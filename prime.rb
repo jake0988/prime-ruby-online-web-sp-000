@@ -7,11 +7,13 @@ def prime?(number)
 
       false
   end
-    i -= 1
-  end
 
-  true
-  if number < 2
+
+    i -= 1
+
+  elsif number < 2
     false
   end
+else
+  true
 end
