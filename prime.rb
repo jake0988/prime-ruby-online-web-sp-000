@@ -1,6 +1,9 @@
 def prime(number)
   number / 2 = num
-  num.find do [n]
-    (number % ((number - 1)..n)) == 0)
+    i = number - 1
+    while i > 1
+    if number % i  == 0
+      true
+      i -= 1
   end
 end
