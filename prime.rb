@@ -8,6 +8,8 @@ def prime?(number)
       false
   elsif number < 2
     false
+  elsif number == 2
+    true
   elsif number % i == 0
   true
   end
