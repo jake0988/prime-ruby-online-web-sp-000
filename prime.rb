@@ -6,14 +6,17 @@ def prime?(number)
     elsif number < 2
       return false
     end
+
       i = number - 1
     while i > 1
+
       if number % i == 0
-      return false
-      binding.pry
-    else
-      return true
-    end
+        return false
+        binding.pry
+        else
+        return true
+      end
+
     i -= 1
-end
+    end
 end
