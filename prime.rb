@@ -1,4 +1,4 @@
-def prime(number)
+def prime?(number)
   number / 2 == num
     i = number - 1
     while i > 1
