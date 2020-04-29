@@ -13,10 +13,8 @@ def prime?(number)
       if number % i == 0
         return false
         binding.pry
-        else
-        return true
       end
-
+      true
     i -= 1
     end
 end
