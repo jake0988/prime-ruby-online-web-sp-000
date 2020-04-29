@@ -10,6 +10,7 @@ def prime?(number)
     while i > 1
       if number % i == 0
       return false
+      binding.pry
     else
       return true
     end
