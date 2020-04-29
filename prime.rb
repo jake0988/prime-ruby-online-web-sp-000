@@ -2,7 +2,7 @@ require 'pry'
 def prime?(number)
 
     if number == 2
-      true
+      return true
     elsif number < 2
       false
     end
