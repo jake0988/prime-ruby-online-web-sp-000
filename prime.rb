@@ -14,7 +14,7 @@ def prime?(number)
         return false
         binding.pry
       end
-      true
     i -= 1
     end
+    true
 end
