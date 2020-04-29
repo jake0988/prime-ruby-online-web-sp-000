@@ -1,6 +1,6 @@
 def prime?(number)
   num = number / 2
-    i = number
+    i = 2..(number - 1)
     while i > 0
     if number % i  == 0
       true
