@@ -9,12 +9,13 @@ def prime?(number)
 
 
 
-    i -= 1
+
 
   elsif number < 2
     false
   elsif number % i == 0
   true
+    i -= 1
   end
 
 
