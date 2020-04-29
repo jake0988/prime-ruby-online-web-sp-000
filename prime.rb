@@ -13,7 +13,7 @@ def prime?(number)
 
   elsif number < 2
     false
-  eslif number % i == 0
+  elsif number % i == 0
   true
   end
 
