@@ -5,7 +5,7 @@ def prime?(number)
 # binding.pry
     while i > 0
     if number % i  == 0
-      true
+      false
     end
     i -= 1
   end
