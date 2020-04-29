@@ -4,9 +4,10 @@ def prime?(number)
     if number < 2
       false
     end
+     binding.pry
     while i > 1
     if number % i  == 0
-      # binding.pry
+
       false
   end
     i -= 1
