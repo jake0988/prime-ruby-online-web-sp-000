@@ -3,3 +3,4 @@ def prime(number)
   num.find do [n]
     (number % ((number - 1)..n)) == 0
   end
+  
