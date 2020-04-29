@@ -10,8 +10,9 @@ def prime?(number)
     false
   elsif number % i == 0
   true
-    i -= 1
   end
+    i -= 1
+
 end
 
 
