@@ -1,7 +1,7 @@
 require 'pry'
 def prime?(number)
     i = number - 1
-    if number < 0
+    if number == -1
       false
     end
     while i > 1
