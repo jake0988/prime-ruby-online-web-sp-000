@@ -7,7 +7,7 @@ def prime?(number)
     elsif number % i  == 0
       # binding.pry
       false
-    end
+  end
     i -= 1
   end
   true
